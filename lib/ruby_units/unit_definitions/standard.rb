@@ -130,9 +130,9 @@ RubyUnits::Unit.define('ounce') do |ounce|
   ounce.aliases    = %w[oz ounce ounces]
 end
 
-RubyUnits::Unit.define('troy pound') do |lbt|
-  lbt.definition = RubyUnits::Unit.new('12 ozt')
-  lbt.aliases    = %w[tlbs tlb troy-pound troy-pounds]
+RubyUnits::Unit.define('gram') do |gram|
+  gram.definition = RubyUnits::Unit.new('1/1000 kg')
+  gram.aliases    = %w[g gram grams gramme grammes]
 end
 
 RubyUnits::Unit.define('troy ounce') do |ozt|
@@ -140,9 +140,9 @@ RubyUnits::Unit.define('troy ounce') do |ozt|
   ozt.aliases    = %w[ozt toz oz-t t-oz troy-ounce troy-ounces]
 end
 
-RubyUnits::Unit.define('gram') do |gram|
-  gram.definition = RubyUnits::Unit.new('1/1000 kg')
-  gram.aliases    = %w[g gram grams gramme grammes]
+RubyUnits::Unit.define('troy pound') do |lbt|
+  lbt.definition = RubyUnits::Unit.new('12 ozt')
+  lbt.aliases    = %w[tlbs tlb troy-pound troy-pounds]
 end
 
 RubyUnits::Unit.define('short-ton') do |ton|
